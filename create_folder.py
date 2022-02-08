@@ -1,5 +1,4 @@
 import os
-from time import sleep
 
 class Create_folders_and_files:
     def __init__(self):
@@ -19,7 +18,7 @@ class Create_folders_and_files:
 
     def question_user(self):
         try:
-            variance ="[1:create folder]: [2:create file]: [3:start program]: "
+            variance ="[1:create folder]: [2:create file]: "
             self.variance = input(variance)
 
             print("=" * len(variance))
