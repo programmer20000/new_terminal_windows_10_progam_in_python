@@ -72,7 +72,6 @@ class Create_folders_and_files:
 
                 case '5':
                     download_image(
-                        dir_name=input('Please image folder name:\n'),
                         keyword=input('Please image name:\n'),
                         max_num=int(input('Please image count:\n'))
 
